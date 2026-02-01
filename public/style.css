@@ -1,0 +1,141 @@
+body{
+  margin: 0;
+  padding:0;
+  
+}
+nav{
+    background-color: #2c3e50;
+    padding: 10px 20px;
+
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+nav ul li a{
+    color:#ecf0f1;
+    text-decoration: none;
+    font-weight:500;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 25px;
+}
+nav ul li a:hover{
+    background-color: #34495e;
+
+}
+hr{
+    margin: 0;
+    padding: 0;
+    border-top: 2px solid #ccc;
+}
+
+.container{
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.todo-form{
+   background-color: #fff ;
+   padding: 30px;
+   border-radius: 10px;
+   box-shadow: 0px 10px 20px rgba(235, 12, 12, 3.5);
+   max-width: 300px;
+   width: 100%;
+
+}
+.input{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+  
+.textarea {
+ min-height: 100px;
+ resize: vertical;
+}
+.btn{
+    width: 100%;
+    padding: 12px;
+    background-color: #2c3e50;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    
+}
+.btn:hover{
+    background-color: #34495e;
+}
+
+.task-list{
+           list-style: none;
+           padding: 0;
+           max-width: 600;
+           margin: auto;
+    
+}
+.task-item{
+    background-color: #fff;
+    margin-bottom: 15px;
+    padding: 15px 20px;
+    border-left: 5px solid #4caf50;
+      box-shadow: 0px 10px 20px rgba(235, 12, 12, 3.5);
+    border-radius: 6px;
+}
+.task-title{
+    font-size:18px ;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 8px;
+}
+.task-description{
+    font-size:18px ;
+    /* font-weight: bold; */
+    color: #666;
+    margin-bottom: 8px;
+}
+
+.delete-item{
+    margin-top: 10px;
+    padding: 6px 10px;
+    background-color: #ff4d4d;
+    color: white;
+    /* border:none; */
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+
+
+}
+.delete-item:hover{
+    background-color: red ;
+}
+
+.Update-item{
+       margin-top: 10px;
+    padding: 6px 10px;
+    background-color:green;
+    color: white;
+    /* border:none; */
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+
+
+}
+
+.Update-item:hover{
+    background-color:#4dff4d ;
+}
