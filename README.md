@@ -40,4 +40,4 @@ Practice database integration and backend development
 This project showcases full-stack development skills by integrating frontend design, backend API development, and database management into a single functional application.
 
 ## Project Preview
-  <img width="1366" height="768" alt="Screenshot (14)" src="https://github.com/user-attachments/assets/704fcf0a-6058-46d0-8bfd-ba001988fe42" />
+ ![Todo Task](screenshot(14).png)
